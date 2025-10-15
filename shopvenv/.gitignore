@@ -1,0 +1,88 @@
+# محیط مجازی
+venv/
+env/
+.venv/
+shopvenv/          ← نام محیط مجازی شما
+# فایل‌های پایتون
+pycache/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# پایگاه داده
+db.sqlite3
+*.db
+
+# فایل‌های محیطی
+.env
+.env.local
+.env.*.local
+
+# فایل‌های تنظیمات محلی
+local_settings.py
+*.conf
+
+# لاگ‌ها
+*.log
+logs/
+
+# فایل‌های استاتیک جمع‌آوری شده
+staticfiles/
+static/
+
+# فایل‌های رسانه (آپلود شده توسط کاربر)
+media/
+
+# IDEها و ویرایشگرها
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# سیستم‌عامل
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ابزارهای تست
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# مستندات
+docs/_build/
+
+# فایل‌های فشرده
+*.zip
+*.tar.gz
+*.rar
+
+# فایل‌های موقتی
+*.tmp
+*.temp
